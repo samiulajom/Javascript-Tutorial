@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        display: block;
+        position: absolute;
+        margin: auto;
+        width: 100%;
+      }
+      li {
+        list-style: none;
+        border: 1px solid rgb(218, 213, 213);
+        border-radius: 5px;
+        width: 80%;
+        height: 25px;
+        font-size: 20px;
+        font-weight: bold;
+        text-transform: capitalize;
+      }
+
+      #name {
+        width: 80%;
+        height: 25px;
+        border-radius: 5px;
+        border: 1px solid rgb(218, 213, 213);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1 id="title">Introduction to DOM traverse</h1>
+      <ul id="list">
+        <li class="item" id="item-one">One</li>
+        <li class="item">two</li>
+        <li class="item">Three</li>
+      </ul>
+      <div>
+        <h1>What is your name:</h1>
+        <input type="text" placeholder="Enter your name" id="name" />
+        <p id="show-name"></p>
+      </div>
+      <div id="skilArea">
+        <h1>Choose Your Skills:</h1>
+        <input type="checkbox" id="cSkill" name="skills" value="C programming"/>
+        <label for="cSkill">C programming</label><br>
+        <input type="checkbox" id="jSkill" name="skills" value="Java programming"/>
+        <label for="jSkill">Java programming</label><br>
+        <input type="checkbox" id="pSkill" name="skills" value="Pythone programming"/>
+        <label for="pSkill">Pythone programming</label> <br>
+        <input type="checkbox" id="javascriptSkill" name="skills" value="Javascript programming"/>
+        <label for="javascriptSkill">Javascript programming</label>
+        <div>
+            <h1 id="">Selected Skills:</h1>
+            <p id="result" ></p>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

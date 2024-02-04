@@ -1,0 +1,17 @@
+//! cheapter- lessions
+//* cheapter-two~ (variable,data,hello,data type, math.js, operators)
+//?cheapter_three~(if,elseif,else,logical and or, logical operators, switch, ternary operators)*/
+//*Cheapter_four~(break,continue,dowhile,forloop,whileloop,nestedloop)
+//? cheapter_five~(length,string,string Comparison, string method)
+//*Cheapter-six~(array,inserRemove,method,multiDimensional,Reverse,Search,Traverse)
+//?cheapter_seven~(Access notation, comapare,itarate,method,object,remove)
+//*cheapter_eight~(arguments,expression,function,inner,return,scope)
+//?cheapter_nine~(functions,callbacks,closure,composition,curring,filter,find,findIndex,firstClassFunction,ForEach,higerFunction,map,pure,recursive,,reduce,return,sort)
+//*cheapter_ten~(closure,compiler or interpreter, context, function,scope,,scope chain, variables)
+//?cheapter_eleven~(OBJECT ORIENTED PROGRAMMING BORNONA)
+//*cheapter_twelve~(this,apply,bind,call,constructor pettern,factory pattern,pass by value & pass by reference, private properties)
+//?cheapter_thirteen~({Prototype} ,constructor Property,Descriptor,Instace )
+//*Cheapter_fourteen~(extand,inheritance and class, method override, polymorphisom, Prototopicall inheritance, Reset constructor, Super call)
+//?cheapter_fivteen~(**MODULE**arroow function,class,default parametter, destructuring,generator,getter and setter, inheritance, iterator, map, object for entries, object inheritanace,private,rest and spread, set ,static ,string, symbol, weakset)
+//*cheapter_sixteen~(*ERROR**custom error,error if else, finally,try,catch)
+//?cheapter_seventeen(AJAX,asynchoronous,asyn-genarator,asyn-iterator,callback aslway not a good solution)

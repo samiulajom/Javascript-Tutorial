@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <p>
+      <button onclick="setLocalStorage('name','Samiul Ajom')">
+        Set local storage name
+      </button>
+    </p>
+    <p>
+      <button onclick="setLocalStorage('username','samiul')">
+        Set local storage username
+      </button>
+    </p>
+    <p>
+      <button onclick="getLocalStorage('name')">get local storage name</button>
+    </p>
+
+    <p>
+      <button onclick="getLocalStorage('username')">
+        get local storage username
+      </button>
+    </p>
+
+    <p>
+      <button onclick="removeLocalStorage('username')">
+        Remove local storage username
+      </button>
+    </p>
+    <p>
+      <button onclick="clearLocalStorage()">
+        Clear local storage username
+      </button>
+    </p>
+    <script src="script.js"></script>
+  </body>
+</html>
